@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('./fonts/poppins/Poppins-Regular.eot');
+    src: url('./fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+        url('./fonts/poppins/Poppins-Regular.woff') format('woff'),
+        url('./fonts/poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('./fonts/poppins/Poppins-Medium.eot');
+    src: url('./fonts/poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/poppins/Poppins-Medium.woff2') format('woff2'),
+        url('./fonts/poppins/Poppins-Medium.woff') format('woff'),
+        url('./fonts/poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('./fonts/poppins/Poppins-Bold.eot');
+    src: url('./fonts/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+        url('./fonts/poppins/Poppins-Bold.woff') format('woff'),
+        url('./fonts/poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/Open-sans/OpenSans-Regular.eot');
+    src: url('./fonts/Open-sans/OpenSans-Regular.eot') format('embedded-opentype'),
+        url('./fonts/Open-sans/OpenSans-Regular.woff2') format('woff2'),
+        url('./fonts/Open-sans/OpenSans-Regular.woff') format('woff'),
+        url('./fonts/Open-sans/OpenSans-Regular.eot') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('./fonts/Montserrat/Montserrat-Regular.eot');
+    src: url('./fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('./fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+        url('./fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('./fonts/Montserrat/Montserrat-Bold.eot');
+    src: url('./fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('./fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+        url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('./fonts/Montserrat/Montserrat-ExtraBold.eot');
+    src: url('./fonts/Montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Montserrat/Montserrat-ExtraBold.woff') format('woff'),
+        url('./fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('./fonts/Inter/Inter-SemiBold.eot');
+    src: url('./fonts/Inter/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter/Inter-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter/Inter-SemiBold.woff') format('woff'),
+        url('./fonts/Inter/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('./fonts/Inter/Inter-Bold.eot');
+    src: url('./fonts/Inter/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter/Inter-Bold.woff2') format('woff2'),
+        url('./fonts/Inter/Inter-Bold.woff') format('woff'),
+        url('./fonts/Inter/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('./fonts/Inter/Inter-Regular.eot');
+    src: url('./fonts/Inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter/Inter-Regular.woff2') format('woff2'),
+        url('./fonts/Inter/Inter-Regular.woff') format('woff'),
+        url('./fonts/Inter/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0D2228;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    color: transparent;
+    border: none;
+}
+
+.container {
+    max-width: 1768px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: rgba(13, 34, 40, 0.3);
+    height: 104px;
+    padding: 40px 0 37px;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 167px;
+    height: 104px;
+    object-fit: cover;
+}
+
+.header__svg {
+    height: 100%;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 417px;
+    margin-right: 23px;
+}
+
+.header__link{
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.header__link:not(:last-child){
+    margin-right: 23px;
+}
+.header__link:not(:last-child)::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 27px;
+    background-color: #D1FF5D;
+    top: 0;
+    right: -16px;
+}
+
+.header__btn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: inherit;
+    border: 2.04px solid #D1FF5D;
+    border-radius: 3px;
+    width: 208px;
+    height: 50px;
+}
