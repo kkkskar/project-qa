@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Poppins', sans-serif;
     src: url('./fonts/poppins/Poppins-Regular.eot');
-    src: url('./fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+    src: url('./fonts/poppins/Poppins-Regular.woff2') format('woff2'),
         url('./fonts/poppins/Poppins-Regular.woff') format('woff'),
         url('./fonts/poppins/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -13,8 +12,7 @@
 @font-face {
     font-family: 'Poppins', sans-serif;
     src: url('./fonts/poppins/Poppins-Medium.eot');
-    src: url('./fonts/poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/poppins/Poppins-Medium.woff2') format('woff2'),
+    src: url('./fonts/poppins/Poppins-Medium.woff2') format('woff2'),
         url('./fonts/poppins/Poppins-Medium.woff') format('woff'),
         url('./fonts/poppins/Poppins-Medium.ttf') format('truetype');
     font-weight: 500;
@@ -25,8 +23,7 @@
 @font-face {
     font-family: 'Poppins', sans-serif;
     src: url('./fonts/poppins/Poppins-Bold.eot');
-    src: url('./fonts/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+    src: url('./fonts/poppins/Poppins-Bold.woff2') format('woff2'),
         url('./fonts/poppins/Poppins-Bold.woff') format('woff'),
         url('./fonts/poppins/Poppins-Bold.ttf') format('truetype');
     font-weight: bold;
@@ -37,8 +34,7 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('./fonts/Open-sans/OpenSans-Regular.eot');
-    src: url('./fonts/Open-sans/OpenSans-Regular.eot') format('embedded-opentype'),
-        url('./fonts/Open-sans/OpenSans-Regular.woff2') format('woff2'),
+    src: url('./fonts/Open-sans/OpenSans-Regular.woff2') format('woff2'),
         url('./fonts/Open-sans/OpenSans-Regular.woff') format('woff'),
         url('./fonts/Open-sans/OpenSans-Regular.eot') format('truetype');
     font-weight: normal;
@@ -51,8 +47,7 @@
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('./fonts/Montserrat/Montserrat-Regular.eot');
-    src: url('./fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+    src: url('./fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
         url('./fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
         url('./fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -63,8 +58,7 @@
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('./fonts/Montserrat/Montserrat-Bold.eot');
-    src: url('./fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+    src: url('./fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
         url('./fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
         url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
     font-weight: bold;
@@ -75,8 +69,7 @@
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('./fonts/Montserrat/Montserrat-ExtraBold.eot');
-    src: url('./fonts/Montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+    src: url('./fonts/Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
         url('./fonts/Montserrat/Montserrat-ExtraBold.woff') format('woff'),
         url('./fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
     font-weight: bold;
@@ -87,8 +80,7 @@
 @font-face {
     font-family: 'Inter', sans-serif;
     src: url('./fonts/Inter/Inter-SemiBold.eot');
-    src: url('./fonts/Inter/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Inter/Inter-SemiBold.woff2') format('woff2'),
+    src: url('./fonts/Inter/Inter-SemiBold.woff2') format('woff2'),
         url('./fonts/Inter/Inter-SemiBold.woff') format('woff'),
         url('./fonts/Inter/Inter-SemiBold.ttf') format('truetype');
     font-weight: 600;
@@ -99,8 +91,7 @@
 @font-face {
     font-family: 'Inter', sans-serif;
     src: url('./fonts/Inter/Inter-Bold.eot');
-    src: url('./fonts/Inter/Inter-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Inter/Inter-Bold.woff2') format('woff2'),
+    src: url('./fonts/Inter/Inter-Bold.woff2') format('woff2'),
         url('./fonts/Inter/Inter-Bold.woff') format('woff'),
         url('./fonts/Inter/Inter-Bold.ttf') format('truetype');
     font-weight: bold;
@@ -109,10 +100,9 @@
 }
 
 @font-face {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     src: url('./fonts/Inter/Inter-Regular.eot');
-    src: url('./fonts/Inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Inter/Inter-Regular.woff2') format('woff2'),
+    src: url('./fonts/Inter/Inter-Regular.woff2') format('woff2'),
         url('./fonts/Inter/Inter-Regular.woff') format('woff'),
         url('./fonts/Inter/Inter-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -162,15 +152,18 @@ button {
     padding: 0 15px;
 }
 
+/* HEADER */
 .header {
-    background: rgba(13, 34, 40, 0.3);
+    background: rgba(0, 1, 1, 0.33);
+    backdrop-filter: blur(7.5px);
     height: 104px;
-    padding: 40px 0 37px;
 }
-.header__wrapper{
+
+.header__wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 .header__logo {
     width: 167px;
     height: 104px;
@@ -191,11 +184,10 @@ button {
 ul {
     display: flex;
     justify-content: space-between;
-    min-width: 417px;
     margin-right: 23px;
 }
 
-.header__link{
+.header__link {
     position: relative;
     font-family: 'Open Sans';
     font-style: normal;
@@ -203,10 +195,9 @@ ul {
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
+    margin: 0 21px 0;
 }
-.header__link:not(:last-child){
-    margin-right: 23px;
-}
+
 .header__link:not(:last-child)::after {
     position: absolute;
     content: "";
@@ -229,4 +220,195 @@ ul {
     border-radius: 3px;
     width: 208px;
     height: 50px;
+}
+
+/* HERO  */
+.hero {
+    height: 100vh;
+    background-image: url(./img/main.background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 102px 0 171px;
+}
+
+.hero__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 206px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #D1FF5D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+}
+
+.hero__title::after {
+    position: absolute;
+    content: "";
+    width: 400px;
+    height: 0px;
+    border: 1px solid #D1FF5D;
+    bottom: -41px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 782px;
+    margin: auto;
+    margin-top: 81px;
+}
+
+.hero__box {
+    width: 754px;
+    display: flex;
+    justify-content: space-between;
+    margin: 85px auto 0;
+}
+
+.hero__cards:not(:nth-child(2)) {
+    max-width: 35%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4.38304px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 6.53059px;
+    padding: 21px 32px 10px 34px;
+}
+
+.hero__cards:nth-of-type(2) {
+    max-width: 35%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4.38304px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 6.53059px;
+    padding: 21px 12px 8px 13px;
+}
+
+.hero__img {
+    width: 92px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.hero__img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero__card-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* ABOUT US  */
+.about {
+    padding-top: 103px;
+}
+
+.about__wrapper-grid {
+    position: relative;
+}
+
+.about__wrapper-grid::before {
+    position: absolute;
+    content: "ABOUT US";
+    top: -170px;
+    left: -160px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 223.663px;
+    line-height: 229px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px inherit;
+    mix-blend-mode: screen;
+    z-index: 0;
+    background: linear-gradient(180.05deg, rgba(255, 255, 255, 0.2) 0.05%, rgba(255, 255, 255, 0) 182.77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    max-width: 976px
+}
+
+.about__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 118px;
+    text-transform: uppercase;
+    color: #D1FF5D;
+    max-width: 496px;
+    margin-bottom: 63px;
+}
+
+.about__desc {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    max-width: 740px;
+    position: relative;
+}
+
+.about__desc:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.about__desc:not(:last-child)::after {
+    position: absolute;
+    content: "";
+    width: 743px;
+    height: 0px;
+    left: 0;
+    top: 130px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.about__first-pic {
+    max-width: 481px;
+    height: 329px;
+    position: relative;
+
+}
+
+.about__first-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.about__first-pic::before {
+    position: absolute;
+    content: "";
+    background: rgba(255, 255, 255, 0.17);
+    width: 481px;
+    height: 329px;
+    backdrop-filter: blur(10.1395px);
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+.about__first-pic::after {
+    position: absolute;
+    content: url(./img/about.first-pic.png);
+    width: 453px;
+    height: 329px;
+    top: 14px;
+    left: 14px;
 }
