@@ -157,6 +157,12 @@ button {
     background: rgba(0, 1, 1, 0.33);
     backdrop-filter: blur(7.5px);
     height: 104px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
 }
 
 .header__wrapper {
@@ -198,6 +204,10 @@ button {
     margin: 0 21px 0;
 }
 
+.header__link:hover {
+    color: #D1FF5D;
+}
+
 .header__link:not(:last-child)::after {
     position: absolute;
     content: "";
@@ -220,6 +230,10 @@ button {
     border-radius: 3px;
     width: 208px;
     height: 50px;
+}
+
+.header__btn:hover {
+    background-color: #D1FF5D;
 }
 
 /* HERO  */
@@ -277,6 +291,10 @@ button {
     margin: 85px auto 0;
 }
 
+.hero__cards {
+    transition: 0.3s;
+}
+
 .hero__cards:not(:nth-child(2)) {
     max-width: 35%;
     background: rgba(255, 255, 255, 0.1);
@@ -293,6 +311,10 @@ button {
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 6.53059px;
     padding: 21px 12px 8px 13px;
+}
+
+.hero__cards:hover {
+    transform: scale(1.3);
 }
 
 .hero__img {
@@ -805,6 +827,10 @@ button {
     height: 50px;
 }
 
+.whyus__btn:hover {
+    background-color: #D1FF5D;
+}
+
 .countries {
     background: linear-gradient(180deg, #FFFFFF 0%, #DFFFF7 100%);
     padding: 64px 152px 0;
@@ -1140,7 +1166,9 @@ button {
 .footer__nav ul li:not(:last-child) {
     margin-bottom: 26px;
 }
-
+.footer__nav ul li:hover {
+    color: #D1FF5D;
+}
 .footer__contact {
     min-width: 604px;
 }
@@ -1194,12 +1222,24 @@ button {
     height: 49px;
     background: #FFFFFF;
     border-radius: 7px;
+    position: relative;
 }
 
 .footer__phone-pic img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.footer__phone-pic:hover::before {
+    position: absolute;
+    content: url(./img/footer.hover-phone.png);
+    width: 49.1px;
+    height: 49.1px;
+    left: 0;
+    top: 0;
+    background: #05664F;
+    border-radius: 7px;
 }
 
 .footer__email {
@@ -1214,8 +1254,18 @@ button {
     height: 49px;
     background: #FFFFFF;
     border-radius: 7px;
+    position: relative;
 }
-
+.footer__email-pic:hover::before {
+    position: absolute;
+    content: url(./img/footer.hover-letter.png);
+    width: 49.1px;
+    height: 49.1px;
+    left: 0;
+    top: 0;
+    background: #05664F;
+    border-radius: 7px;
+}
 .footer__email-pic img {
     width: 100%;
     height: 100%;
